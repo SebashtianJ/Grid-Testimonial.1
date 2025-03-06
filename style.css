@@ -1,0 +1,135 @@
+/* Fonts */
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* Main */
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: lightpink;
+}
+
+.grid-container {
+  max-width: 2500px;
+  margin: 100px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.item {
+  background-color: #98a8f8;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+  border: 5px solid #cdfcf6;
+}
+
+.item:nth-of-type(1) {
+  background-color: purple;
+}
+
+.item:nth-of-type(2) {
+  background-color: rgb(65, 65, 115);
+}
+
+.item:nth-of-type(3) {
+  background-color: rgb(255, 255, 255);
+  color: #4f4f4f;
+}
+
+.item:nth-of-type(4) {
+  background-color: rgb(255, 255, 255);
+  color: #4f4f4f;
+}
+
+.item:nth-of-type(5) {
+  background-color: #333;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  color: rgb(170, 170, 170);
+}
+
+p {
+  font-size: 18px;
+}
+
+.quotation img {
+  align-items: flex-end;
+}
+
+#footer {
+  margin: 0px;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
